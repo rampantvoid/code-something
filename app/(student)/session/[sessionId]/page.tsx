@@ -76,7 +76,7 @@ const page = () => {
   const onSubmit = async () => {
     try {
       const response = await axios.post(
-        "https://6turons7vrdko7r2zn3kotdqni0xnvlx.lambda-url.ap-south-1.on.aws/",
+        "",
         {
           language: "c",
           code: code,
